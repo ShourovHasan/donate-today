@@ -166,7 +166,7 @@ body {
 .lives_depend_flexible {
     display: flex;
     margin: auto;
-    height: 100vh;
+    height: 500px;
     padding-top: 50px;
     width: 80%;
 }
@@ -207,7 +207,7 @@ body {
 .need_survive_flexible {
     display: flex;
     margin: auto;
-    height: 100vh;
+    height: 500px;
     padding-top: 50px;
     width: 80%;
 }
@@ -247,7 +247,7 @@ body {
 /* My Updates start */
 .email_updates {
     width: 60%;
-    height: 100vh;
+    height: 550px;
     margin: 0 auto;
 }
 
@@ -268,21 +268,20 @@ body {
 
 .email_subcribe {
     background-color: #FFF4D6;
-    padding: 20% 0;
+    padding: 10% 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #email_sub_border{
-    position: relative;
+    display: flex;
 }
 .email_subcribe input {
     border: none;
     padding: 15px;
     background-color: #D9D9D9;
     color: #AA9F9F;
-    width: 180px;
     font-weight: 530;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -292,7 +291,6 @@ body {
     border: none;
     background-color: #FF5959;
     padding: 11px;
-    position: absolute;
     text-decoration: none;
     color: white;
     border-top-right-radius: 5px;
@@ -318,6 +316,7 @@ footer {
 #footer_font {
     color: #FF5959;
     padding-top: 8%;
+    font-size: 2em;
     font-family: 'Lobster', cursive;
 }
 
