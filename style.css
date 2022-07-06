@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* top banner start */
+.top_Banner_Background{
+    text-align: center;
+    color: white;
+    background-image: url(images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    
+}
+.top_Banner_Caption{
+    margin: auto;
+    padding: 10% 0;
+    width: 75%;
+}
+.top_Banner_Caption h1{
+    font-size: 65px;
+}
+.top_Banner_Caption p{
+    margin: 50px 0;
+    font-size: 28px;
+}
+.top_Banner_Caption a{
+    text-decoration: none;
+    background-color: #FF5959;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+/* top banner end */
+/* Donate Today start */
+.donate_today_section{
+    text-align: center;
+    color: black;
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+}
+.donate_today_content{
+    margin: auto;
+    padding: 10% 0;
+    width: 75%;
+}
+.donate_today_content h1{
+    font-size: 45px;
+}
+.donate_today_content p{
+    margin: 30px 0;
+    font-size: 28px;
+}
+.donate_today_content a{
+    text-decoration: none;
+    background-color: #FF5959;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.donate_today_content ul{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.donate_today_content ul li{
+    background-color: #FAFAFA;
+    margin: 20px 10px;
+    padding: 30px 20px;
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.donate_today_content input{
+    border: none;
+    width: 100%;
+    text-align: center;
+    color: #B3B3B3;
+    font-size: 18px;
+}
+#list_Border_Background{
+    border: 2px solid #FF5959;
+    background-color: #FFEEEE;
+}
+/* Donate Today End */
+/* Donate Plan Start */
+.donate_plan{
+    background-color: white;
+    height: 100vh;
+    margin: auto;
+    padding-top: 50px;
+    width: 80%;
+}
+.first_donate_plan{
+    text-align: center;
+}
+.first_donate_plan h1{
+    margin: 30px 0;
+    font-size: 45px;
+}
+.first_donate_plan p{
+    margin: 30px 0;
+    font-size: 28px;
+}
+.plan_flexible{
+    display: flex;
+
+}
+.third_width{
+    border-radius: 5px;
+    width: 30%;
+    text-align: justify;
+    padding: 25px 15px;
+}
+#blue_Shadow{
+    background-color: #EDF5F6;
+}
+#pink_shadow{
+    background-color: #FFEEEE;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#yellow_shadow{
+    background-color: #FFF4D6;
+}
+.heading_padding{
+    padding: 15px 0;
+}
+/* Donate Plan End */
+/* < lives depend start */
+
+/* < lives depend End */
