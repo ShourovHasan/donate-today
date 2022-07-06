@@ -135,6 +135,94 @@ body{
     padding: 15px 0;
 }
 /* Donate Plan End */
-/* < lives depend start */
+/* lives depend start */
+.lives_depend_flexible{
+    display: flex;
+    margin: auto;
+    height: 100vh;
+    padding-top: 50px;
+    width: 80%;
+}
+.half_width{
+    width: 50%;
+}
+.half_width :nth-child(1){
+    margin-left: 20px;
+}
+.half_width h1{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.half_width p{
+    font-size: 20px;
+    padding: 10px 0;
+}
+.half_width a{
+    text-decoration: none;
+    background-color: #FF5959;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.half_width img{
+    width: 100%;
+    border-radius: 8px;
+}
+/* lives depend End */
+/* need suvive start */
+.need_survive_flexible{
+    display: flex;
+    margin: auto;
+    height: 100vh;
+    padding-top: 50px;
+    width: 80%;
+}
+.half_width_Survive {
+    width: 50%;
+}
+.half_width_Survive :nth-child(0) {
+    margin-right: 40px;
+}
 
-/* < lives depend End */
+.half_width_Survive h1 {
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.half_width_Survive p {
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.half_width_Survive a {
+    text-decoration: none;
+    background-color: #FF5959;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.half_width_Survive img {
+    width: 95%;
+    border-radius: 8px;
+}
+/* need suvive end  */
+
+
+
+/* Footer Start */
+footer{
+    background-color: black;
+    width: 100%;
+    height: 150px;
+}
+.footer_align{
+    text-align: center;
+    color: #B3B3B3;
+    width: 50%;
+    margin: 0 auto;
+}
+#pink_color{
+    color: #FF5959;
+}
+/* Footer End  */
