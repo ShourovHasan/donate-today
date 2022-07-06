@@ -1,12 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: 'Poppins', sans-serif;
 }
+
 /* top banner start */
-.top_Banner_Background{
+.top_Banner_Background {
     text-align: center;
     color: white;
     background-image: url(images/donation1.jpg);
@@ -15,49 +17,58 @@ body{
     background-size: cover;
     width: 100%;
     height: 100vh;
-    
+
 }
-.top_Banner_Caption{
+
+.top_Banner_Caption {
     margin: auto;
-    padding: 10% 0;
+    padding: 15% 0;
     width: 75%;
 }
-.top_Banner_Caption h1{
-    font-size: 65px;
+
+.top_Banner_Caption h1 {
+    font-size: 55px;
 }
-.top_Banner_Caption p{
+
+.top_Banner_Caption p {
     margin: 50px 0;
-    font-size: 28px;
+    font-size: 22px;
 }
-.top_Banner_Caption a{
+
+.top_Banner_Caption a {
     text-decoration: none;
     background-color: #FF5959;
     color: white;
-    padding: 10px 20px;
+    padding: 15px 25px;
     border-radius: 5px;
 }
+
 /* top banner end */
 /* Donate Today start */
-.donate_today_section{
+.donate_today_section {
     text-align: center;
     color: black;
     background-color: white;
     width: 100%;
     height: 100vh;
 }
-.donate_today_content{
+
+.donate_today_content {
     margin: auto;
     padding: 10% 0;
     width: 75%;
 }
-.donate_today_content h1{
+
+.donate_today_content h1 {
     font-size: 45px;
 }
-.donate_today_content p{
+
+.donate_today_content p {
     margin: 30px 0;
     font-size: 28px;
 }
-.donate_today_content a{
+
+.donate_today_content a {
     text-decoration: none;
     background-color: #FF5959;
     color: white;
@@ -65,12 +76,14 @@ body{
     border-radius: 5px;
     font-size: 20px;
 }
-.donate_today_content ul{
+
+.donate_today_content ul {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
 }
-.donate_today_content ul li{
+
+.donate_today_content ul li {
     background-color: #FAFAFA;
     margin: 20px 10px;
     padding: 30px 20px;
@@ -79,107 +92,130 @@ body{
     font-weight: bold;
     border-radius: 5px;
 }
-.donate_today_content input{
+
+.donate_today_content input {
     border: none;
     width: 100%;
     text-align: center;
     color: #B3B3B3;
     font-size: 18px;
 }
-#list_Border_Background{
+
+#list_Border_Background {
     border: 2px solid #FF5959;
     background-color: #FFEEEE;
+    color: #FF5959;
 }
+
 /* Donate Today End */
 /* Donate Plan Start */
-.donate_plan{
+.donate_plan {
     background-color: white;
     height: 100vh;
     margin: auto;
     padding-top: 50px;
     width: 80%;
 }
-.first_donate_plan{
+
+.first_donate_plan {
     text-align: center;
 }
-.first_donate_plan h1{
+
+.first_donate_plan h1 {
     margin: 30px 0;
     font-size: 45px;
 }
-.first_donate_plan p{
+
+.first_donate_plan p {
     margin: 30px 0;
     font-size: 28px;
 }
-.plan_flexible{
+
+.plan_flexible {
     display: flex;
 
 }
-.third_width{
+
+.third_width {
     border-radius: 5px;
     width: 30%;
     text-align: justify;
     padding: 25px 15px;
 }
-#blue_Shadow{
+
+#blue_Shadow {
     background-color: #EDF5F6;
 }
-#pink_shadow{
+
+#pink_shadow {
     background-color: #FFEEEE;
     margin-left: 10px;
     margin-right: 10px;
 }
-#yellow_shadow{
+
+#yellow_shadow {
     background-color: #FFF4D6;
 }
-.heading_padding{
+
+.heading_padding {
     padding: 15px 0;
 }
+
 /* Donate Plan End */
 /* lives depend start */
-.lives_depend_flexible{
+.lives_depend_flexible {
     display: flex;
     margin: auto;
     height: 100vh;
     padding-top: 50px;
     width: 80%;
 }
-.half_width{
+
+.half_width {
     width: 50%;
 }
-.half_width :nth-child(1){
+
+.half_width :nth-child(1) {
     margin-left: 20px;
 }
-.half_width h1{
+
+.half_width h1 {
     font-size: 35px;
     padding-bottom: 20px;
 }
-.half_width p{
+
+.half_width p {
     font-size: 20px;
     padding: 10px 0;
 }
-.half_width a{
+
+.half_width a {
     text-decoration: none;
     background-color: #FF5959;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
 }
-.half_width img{
+
+.half_width img {
     width: 100%;
     border-radius: 8px;
 }
+
 /* lives depend End */
 /* need suvive start */
-.need_survive_flexible{
+.need_survive_flexible {
     display: flex;
     margin: auto;
     height: 100vh;
     padding-top: 50px;
     width: 80%;
 }
+
 .half_width_Survive {
     width: 50%;
 }
+
 .half_width_Survive :nth-child(0) {
     margin-right: 40px;
 }
@@ -206,65 +242,83 @@ body{
     width: 95%;
     border-radius: 8px;
 }
+
 /* need suvive end  */
 /* My Updates start */
-.email_updates{
+.email_updates {
     width: 60%;
     height: 100vh;
     margin: 0 auto;
 }
-.email_info{
+
+.email_info {
     background-color: white;
     text-align: center;
     padding: 20px 0 50px 0;
 }
-.email_info h1{
+
+.email_info h1 {
     font-size: 45px;
     padding-bottom: 20px;
 }
-.email_info p{
+
+.email_info p {
     font-size: 20px;
 }
-.email_subcribe{
+
+.email_subcribe {
     background-color: #FFF4D6;
-    text-align: center;
     padding: 20% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-/* #email_sub_border{
-    border-radius: 5px;
-} */
-.email_subcribe input{
+
+#email_sub_border{
+    position: relative;
+}
+.email_subcribe input {
+    border: none;
+    padding: 15px;
     background-color: #D9D9D9;
     color: #AA9F9F;
-    text-decoration: none;
+    width: 180px;
+    font-weight: 530;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.email_subcribe a {
     border: none;
-    padding: 14px 30px;
-    margin-right: 0;
-}
-.email_subcribe a{
-    text-decoration: none;
     background-color: #FF5959;
+    padding: 11px;
+    position: absolute;
+    text-decoration: none;
     color: white;
-    padding: 10px 20px;
-    margin-left: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
+
 /* My Updates End */
 /* Footer Start */
-footer{
+footer {
     background-color: black;
     width: 100%;
     height: 150px;
 }
-.footer_align{
+
+.footer_align {
     text-align: center;
     color: #B3B3B3;
     width: 50%;
     height: 150px;
     margin: 0 auto;
 }
-#footer_font{
+
+#footer_font {
     color: #FF5959;
     padding-top: 8%;
     font-family: 'Lobster', cursive;
 }
+
 /* Footer End  */
