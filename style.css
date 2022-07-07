@@ -198,7 +198,7 @@ body {
 }
 
 .half_width img {
-    width: 100%;
+    width: 95%;
     border-radius: 8px;
 }
 
@@ -244,41 +244,92 @@ body {
 }
 
 /* need suvive end  */
-/* For Bonus Task Start */
-.food_donate{
+/* Bonus Task Help Start */
+.help_Need_flexible {
+    display: flex;
+    height: 500px;
+    margin: 30px auto;
+    width: 80%;
+}
+
+.half_width_help h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.half_width_help {
+    width: 50%;
+}
+
+.half_width_help p {
+    font-size: 20px;
+    margin: 10px 0 30px;
+    text-align: justify;
+}
+
+.half_width_help a {
+    text-decoration: none;
+    background-color: #FF5959;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: medium;
+}
+
+.background_help {
+    background-image: url(images/Picture2-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.half_width_help img {
+    width: 80%;
+    border-radius: 8px;
+
+}
+
+/* Bonus Task Help End*/
+/* For Bonus Task Food Donate Start */
+.food_donate {
     display: flex;
     margin: auto;
     height: 550px;
     padding-top: 30px;
     width: 80%;
 }
-.food_donate h1{
+
+.food_donate h1 {
     font-size: 35px;
     margin-bottom: 20px;
 }
-.food_Donate label{
+
+.food_Donate label {
     border: 1px solid #FF5959;
     border-radius: 10px;
     font-size: 20px;
     padding: 3px 15px;
 }
-.food_Donate button{
+
+.food_Donate button {
     background-color: #FF5959;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
-    border:none;
+    border: none;
     font-size: medium;
 }
-.half_width_donate{
+
+.half_width_donate {
     width: 50%;
 }
-.half_width_donate img{
+
+.half_width_donate img {
     width: 95%;
     border-radius: 8px;
 }
 
-/* For Bonus Task End  */
+/* For Bonus Task Food Donate End  */
 /* My Updates start */
 .email_updates {
     width: 60%;
@@ -309,9 +360,10 @@ body {
     align-items: center;
 }
 
-#email_sub_border{
+#email_sub_border {
     display: flex;
 }
+
 .email_subcribe input {
     border: none;
     padding: 15px;
