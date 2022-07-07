@@ -248,7 +248,7 @@ body {
 .help_Need_flexible {
     display: flex;
     height: 500px;
-    margin: 30px auto;
+    margin: 50px auto;
     width: 80%;
 }
 
@@ -281,6 +281,7 @@ body {
     background-image: url(images/Picture2-removebg-preview.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    width: 87%;
 }
 
 .half_width_help img {
